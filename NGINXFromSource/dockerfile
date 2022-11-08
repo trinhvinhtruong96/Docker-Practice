@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
+    apt update && apt upgrade && \
     apt-get install build-essential\ 
                     libpcre3 \
                     libpcre3-dev \
