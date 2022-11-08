@@ -6,6 +6,7 @@ A Dockerfile is a collection of instructions that, once processed by the daemon,
 ## CMD: default command for your image
 ## COPY: COPY local:container (copy from local)
 ## ADD: copy file to docker image (copy from internet)
+## WORKDIR: set default working dir for container
 
 ## build image: docker image build .
 after build image it return id, so we can use this id to run container 
